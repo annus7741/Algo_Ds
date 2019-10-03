@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+//this is ambigous
 struct tree{
 		int data;
 		struct tree* left;

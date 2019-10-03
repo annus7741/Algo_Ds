@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+//i think this is fine
 struct tree{
 		int data;
 		struct tree *left;

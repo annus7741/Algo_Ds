@@ -24,6 +24,8 @@ int main(){
 
 }
 
+// nice pattern bro
+
 /*
 4
 

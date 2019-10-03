@@ -11,7 +11,7 @@ struct stack
 	int top;
 	double a[MAX];
 }s;
-
+// class created succesfully
 void push(double c){
 	s.a[++s.top]=c;
 }

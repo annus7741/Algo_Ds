@@ -51,12 +51,12 @@ void main()
 {
 	struct tree* root;
 	int ans, exit;
-	root=create(30);
+	root=create(40);
 	ans=height(root);
 	printf("Height of tree after first insertion: %d\n",ans);
-	root->left=create(20);
+	root->left=create(30);
 	root->right=create(40);
-	root->left->left=create(60);
+	root->left->left=create(80);
 	ans=height(root);
 	printf("Height of given tree: %d\n",ans);
 	ans=node(root);

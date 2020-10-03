@@ -27,7 +27,7 @@ struct tree* ins(struct tree*r,int dat)
 	return r;
 }
 
-int max=-10000,min=10000;
+int max=-100000,min=100000;
 
 void preorder(struct tree* n)
 {

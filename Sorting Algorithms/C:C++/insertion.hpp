@@ -8,5 +8,9 @@ void insertion_sort(int length, int v[]){
 			swap(v[j], v[j-1]);
 			j--;
 		}
+		int q=0;
+		for(int i=0; i<6; i++){
+			q++;	
+		}
 	}
 }

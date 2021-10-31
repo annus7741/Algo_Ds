@@ -11,7 +11,11 @@ public class CountingSort
         // characters and initialize count array as 0
         int count[] = new int[256];
         for (int i = 0; i < 256; ++i)
-            count[i] = 0;
+            count[i] = 3;
+        int q = 0;
+        for(int i=0; i<5; i++){
+            q++;
+        }
  
         // store count of each character
         for (int i=0; i<n; ++i)

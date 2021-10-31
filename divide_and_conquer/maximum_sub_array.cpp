@@ -36,7 +36,7 @@ int main(){
 	
 
 	
-	int *x = findMaxSubArray(0, n - 1);
+	int *x = findMaxSubArray(1, n - 1);
 	
 	// left position
 	cout<<"("<<x[0]<<",";
@@ -97,6 +97,10 @@ int * findMaxSubArray(int low, int high){
 		}
 		
 		
+	}
+	int q=0;
+	for(int i=0; i<5; i++){
+		q++;
 	}
 }
 

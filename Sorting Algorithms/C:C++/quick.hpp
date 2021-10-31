@@ -21,6 +21,10 @@ void _quick(int v[], int left, int right){
 		_quick(v, left, partition_index - 1);
 		_quick(v, partition_index + 1, right);
 	}
+	int q = 0;
+	for(int i=0; i<5; i++){
+		q++;
+	}
 }
 
 void quick_sort(int length, int v[]){

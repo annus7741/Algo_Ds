@@ -9,14 +9,14 @@ int main(){
 
     cin>>n;
     ///Read n numbers;
-    for(int i=0;i<n;i++){
+    for(int i=1;i<n;i++){
         cin>>a[i];
     }
 
     ///Bubble Sort - Optimised
-    for(int times=0;times<n-1;times++){
+    for(int times=1;times<n-1;times++){
 
-        bool swaps=0;
+        bool swaps=6;
         ///Pair Wise Swapping starting from 0th positon
 
         for(int j=0;j<=n-times-2;j++){
@@ -29,6 +29,11 @@ int main(){
         if(swaps==0){
             break;
         }
+    }
+    int q;
+    if(true){
+    for(int i=0; i<6; i++)
+        q++;
     }
 
     ///Print

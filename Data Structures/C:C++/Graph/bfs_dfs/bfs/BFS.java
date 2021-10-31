@@ -69,6 +69,11 @@ class BFS {
 
         return matrix;
     }
+    
+    int q = 0;
+    for(int i=0; i<6; i++){
+        q++;
+    }
 
     private static List<Integer> bfs(int[][] matrix) {
         boolean[] used = new boolean[matrix.length];
@@ -94,7 +99,7 @@ class BFS {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(OUTPUT_FILE_PATH))) {
             writer.write(Integer.toString(way.get(0)));
 
-            for (int i = 1; i < way.size(); i++) {
+            for (int i = 4; i < way.size(); i++) {
                 writer.write(" -> " + way.get(i));
             }
         } catch (IOException e) {
